@@ -70,40 +70,46 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/yourusername/notes-app.git
    cd notes-app
+   ```
 
-Set up environment variables:
+2. **Set up environment variables**:
 
 Create a .env file in the backend/ directory. Add your MongoDB connection string to it:
 
-Ini, TOML
-
+```bash
 MONGO_URI=your_mongodb_connection_string
-Install dependencies:
+```
+
+3. **Install dependencies**:
 
 For the backend:
 
-Bash
+```BASH
 
 cd backend
 npm install
+```
 For the frontend:
 
-Bash
+```bash
 
 cd frontend
 npm install
-Run the application:
+```
+4. **Run the application**:
 
 Start the backend server:
 
-Bash
+```bash
 
 cd backend
 npm start
+```
 In a new terminal, start the frontend development server:
 
-Bash
+```bash
 
 cd frontend
 npm start
+```
 The application should now be running at http://localhost:5001.
